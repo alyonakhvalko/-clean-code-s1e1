@@ -163,7 +163,7 @@
 /* Edit Task */
 
 .list-item .input[type="text"] {
-  display:none
+  display: none
 }
 
 .edit-mode .input[type=text] {
