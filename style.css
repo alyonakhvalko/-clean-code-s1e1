@@ -4,47 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .promo {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .promo-img {
   width: 100%;
 }
+
 .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
+
   .promo { 
     text-align: center;
   }
+
 }
+
 .main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 .list-todo {
   margin:0;
   padding: 0px;
 }
+
 .list-item, .heading {
   list-style:none;
 }
+
 .input,.btn{
   outline:none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -54,10 +66,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .heading,
 .label-new-task {
   color: #333;
@@ -68,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -80,20 +96,24 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .input[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
+
 .label-new-task {
   display: block;
   margin: 0 0 20px;
 }
+
 .input-new-task {
   width: 318px;
 }
 
 /* Task list */
+
 .list-item {
   overflow: hidden;
   padding: 20px 0;
@@ -103,6 +123,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .list-item > * {
   vertical-align: middle;
 }
@@ -110,31 +131,37 @@
 .list-item > .input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .list-item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-item >    .input[type="text"] {
   width: 226px
 }
+
 .btn-delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn-delete-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .label-task-comleted {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .list-item .input[type="text"] {
   display:none
 }
