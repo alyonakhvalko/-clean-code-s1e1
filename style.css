@@ -45,16 +45,16 @@
 }
 
 .list-todo {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-item, .heading {
-  list-style:none;
+  list-style: none;
 }
 
 .input,.btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -167,10 +167,10 @@
 }
 
 .edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
