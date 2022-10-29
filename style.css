@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.more-info {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -44,12 +44,12 @@
   display: flex;
 }
 
-.list-todo {
+.list__todo {
   margin: 0;
   padding: 0px;
 }
 
-.list-item, 
+.list__item, 
 .heading {
   list-style: none;
 }
@@ -76,7 +76,7 @@
 /* Heading */
 
 .heading,
-.label-new-task {
+.label__new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -105,43 +105,42 @@
 
 /* New Task */
 
-.label-new-task {
+.label__new-task {
   display: block;
   margin: 0 0 20px;
 }
 
-.input-new-task {
+.input__new-task {
   width: 318px;
 }
 
 /* Task list */
 
-.list-item {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.list-item > * {
+.list__item > * {
   vertical-align: middle;
 }
 
-.list-item > .input[type="checkbox"] {
+.list__item > .input[type="checkbox"] {
   margin: 0 10px;
 }
 
-.list-item > .label {
+.list__item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-item > .input[type="text"] {
+.list__item > .input[type="text"] {
   width: 226px;
 }
 
@@ -157,14 +156,14 @@
 
 /* Completed */
 
-.list-completed#completed-tasks .label {
+.list__completed#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.list-item .input[type="text"] {
+.list__item .input[type="text"] {
   display: none;
 }
 
