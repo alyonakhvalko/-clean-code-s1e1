@@ -34,17 +34,19 @@
   margin: 0 auto 0;
 }
 
-.task {
+.label__task, 
+.input__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.wrapper__task {
   display: flex;
 }
 
-.list__todo {
+.list__todo, 
+.list__completed {
   margin: 0;
   padding: 0px;
 }
@@ -144,13 +146,13 @@
   width: 226px;
 }
 
-.btn-delete-img {
+.img__btn-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn-delete-img:hover {
+.img__btn-delete:hover {
   transform: rotateZ(0);
 }
 
@@ -167,11 +169,11 @@
   display: none;
 }
 
-.edit-mode .input[type=text] {
+.list__edit-mode .input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .label {
+.list__edit-mode .label {
   display: none;
 }
